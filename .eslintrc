@@ -1,0 +1,15 @@
+{
+  "extends": "eslint-config-egg",
+  "rules": {
+    "no-multi-spaces": 0,
+    "quote-props": 0,
+    "semi": 0, //关闭分号检查
+    "no-unused-vars": [
+      2,
+      {
+        // 允许声明未使用变量
+        "vars": "local"
+      }
+    ]
+  }
+}
