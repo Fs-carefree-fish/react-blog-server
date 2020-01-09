@@ -29,10 +29,10 @@ module.exports = appInfo => {
       host: 'localhost',
       port: '3306',
       user: 'root',
-      // password: 'root',
-      // database: 'react_blog',
-      password: '671562root',
-      database: 'myBlog',
+      password: 'root',
+      database: 'react_blog',
+      // password: '671562root',
+      // database: 'myBlog',
     },
     // load into app, default is open
     app: true,
@@ -51,8 +51,7 @@ module.exports = appInfo => {
   //开启 csrf 允许跨域
   //设置白名单 origin: 'http://localhost:3000',
   config.cors = {
-    origin: 'http://localhost:3000',//本地
-    //origin: 'http://47.113.118.154',//云
+    origin: 'http://localhost:3001',//本地
     //origin: '*',
     credentials: true,//允许cookie跨域
     allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS',
